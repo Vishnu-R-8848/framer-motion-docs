@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import Button from "./components/Button";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <h1>my first motion component</h1>
+      <Button />
+    </div>
+  );
+};
 
-export default App
+export default App;
